@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sillicoin Valley Tycoon</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="crt">
+    <h1>SILLICOIN VALLEY TYCOON</h1>
+    <div class="hud">
+      <span>💰 CASH: $<span id="cash">10,000</span></span>
+      <span>📈 DAY: <span id="day">1</span></span>
+    </div>
+
+    <div id="ticker-board">
+      <h2>MARKET</h2>
+      <ul id="tickers"></ul>
+    </div>
+
+    <div id="advisor-box">
+      <p><strong>RUTH:</strong> <span id="advisor-dialogue">"Welcome to the end of history, sugar."</span></p>
+    </div>
+
+    <button onclick="advanceDay()">Next Day</button>
+  </div>
+
+  <script src="rng.js"></script>
+  <script src="game.js"></script>
+</body>
+
+</html>
