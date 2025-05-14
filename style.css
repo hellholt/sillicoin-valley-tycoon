@@ -1,0 +1,50 @@
+body {
+  background: black;
+  color: #00ff00;
+  font-family: 'Press Start 2P', monospace;
+  text-shadow: 0 0 2px lime;
+  margin: 0;
+  padding: 20px;
+}
+
+#crt {
+  border: 4px solid #00ff00;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  background: #000;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.hud {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+#ticker-board ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#ticker-board li {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 0;
+  border-bottom: 1px dashed #00ff00;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  background: black;
+  color: #00ff00;
+  font-family: 'Press Start 2P';
+  border: 2px solid #00ff00;
+  padding: 8px 16px;
+  cursor: pointer;
+}
